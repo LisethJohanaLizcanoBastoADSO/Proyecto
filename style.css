@@ -1,0 +1,23 @@
+
+.bienvenida{
+    display: flex;
+    background-color: #0D3878;
+    height: 150vh;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.segunda_pagina{
+  display: flex;
+  justify-content: center;
+  flex-wrap: nowrap;
+  flex-direction: row;
+}
+
+
+.contenedor{
+  height: 500px;
+  width: 500px;
+  background-color: #0D3878;
+}

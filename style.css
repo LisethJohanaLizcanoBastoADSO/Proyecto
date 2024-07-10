@@ -1,26 +1,26 @@
-
-.bienvenida{
-    display: flex;
-    background-color: #0D3878;
-    height: 150vh;
-    justify-content: center;
-    flex-direction: column;
-    align-items: center;
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
 }
 
-.segunda_pagina{
+body {
+  background-color: #0D3878; /* Color de fondo del cuerpo */
+  overflow: hidden; /* Evita el desplazamiento vertical */
+}
+
+.bienvenida {
   display: flex;
   justify-content: center;
-  flex-wrap: nowrap;
-  flex-direction: row;
+  align-items: center;
+  min-height: 100vh;
 }
 
-
-.contenedor{
-  height: 600px;
-  width: 600px;
-  background-color: #0D3878;
-  border-radius: 70px;
+.bienvenida figure {
+  margin: 0; /* Asegura que no haya margen en la figura */
 }
 
-
+.bienvenida img {
+  max-width: 100%; /* Asegura que la imagen no se desborde */
+  height: auto; /* Permite que la imagen mantenga su proporción */
+}

@@ -1,0 +1,40 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+  
+  body {
+    background-color: #0D3878; /* Color de fondo del cuerpo */
+    overflow: hidden; /* Evita el desplazamiento vertical */
+  }
+  
+  .buscar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    flex-direction: column;
+  }
+  
+  .buscar figure {
+    margin: 0; /* Asegura que no haya margen en la figura */
+  }
+  
+  .buscar img {
+    max-width: 100%; /* Asegura que la imagen no se desborde */
+    height: auto; /* Permite que la imagen mantenga su proporción */
+  }
+  
+
+.controls {
+    width: 100%;
+    background-color: #ffffff;
+    padding: 10px;
+    border-radius: 4px;
+    margin-bottom: 16px;
+    border: 1px solid #1f53c5;
+    font-family: "calibri";
+    font-size: 18px;
+    color: rgb(0, 0, 0);
+  }

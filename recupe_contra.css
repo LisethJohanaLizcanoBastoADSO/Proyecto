@@ -11,12 +11,12 @@ body {
 .form-register {
   display: flex;
   width: 400px;
-  background: #0D3878;
+  background: #ffffff;
   padding: 30px;
   margin: auto;
   margin-top: 100px;
   font-family: "calibri";
-  color: white;
+  color: rgb(0, 0, 0);
   box-shadow: 7px 13px 37px #000;
   border-radius: 50px;
   flex-direction: column;
@@ -41,34 +41,36 @@ body {
   color: rgb(0, 0, 0);
 }
 
-.form-register p {
-  height: 40px;
-  text-align: center;
-  font-size: 18px;
-  line-height: 40px;
-}
 
-.form-register a {
-  color: white;
-  text-decoration: none;
-}
-
-.form-register a:hover {
-  color: white;
-  text-decoration: underline;
-}
-
-.form-register .botons {
-  width: 100%;
-  background: #1f53c5;
-  border: none;
-  padding: 12px;
-  color: white;
-  margin: 16px 0;
-  font-size: 16px;
-}
 
 .logo img {
     width: 200px; /* Ancho deseado de la imagen */
     height: auto; /* Altura automática para mantener la proporción */
+}
+
+
+.btn_uno {
+  background-color: #1f53c5;
+  color: #ffffff; /* añadido para asegurar visibilidad del texto */
+  border: none; /* asegura que no haya bordes en el botón */
+  padding: 10px 20px; /* añadido para dar espacio al contenido del botón */
+  border-radius: 5px; /* añadido para dar bordes redondeados al botón */
+  margin-top: 10px; /* ajuste del margen superior */
+  text-decoration: none;
+
+}
+
+.btn_dos {
+  border: 2px solid #1F53C5;
+  color: #000;
+  background-color: transparent; /* ajustado para que el botón sea transparente */
+  padding: 10px 20px; /* añadido para dar espacio al contenido del botón */
+  border-radius: 5px; /* añadido para dar bordes redondeados al botón */
+  margin-top: 10px; /* ajuste del margen superior */
+  text-decoration: none;
+}
+
+
+.caja{
+      display: flex;
 }

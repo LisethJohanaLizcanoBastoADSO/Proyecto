@@ -1,0 +1,55 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: "calibri";
+  }
+  
+  .form-register {
+    display: flex;
+    width: 400px;
+    background: #ffffff;
+    padding: 30px;
+    margin: auto;
+    margin-top: 100px;
+    color: #000;
+    box-shadow: 7px 13px 37px #000;
+    border-radius: 50px;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .form-register h4 {
+    font-size: 22px;
+    margin-bottom: 20px;
+  }
+  
+
+  .btn_uno {
+    background-color: #1f53c5;
+    color: #ffffff; /* añadido para asegurar visibilidad del texto */
+    border: none; /* asegura que no haya bordes en el botón */
+    padding: 10px 20px; /* añadido para dar espacio al contenido del botón */
+    border-radius: 5px; /* añadido para dar bordes redondeados al botón */
+    margin-top: 10px; /* ajuste del margen superior */
+    text-decoration: none;
+
+  }
+  
+  .btn_dos {
+    border: 2px solid #1F53C5;
+    color: #000;
+    background-color: transparent; /* ajustado para que el botón sea transparente */
+    padding: 10px 20px; /* añadido para dar espacio al contenido del botón */
+    border-radius: 5px; /* añadido para dar bordes redondeados al botón */
+    margin-top: 10px; /* ajuste del margen superior */
+    text-decoration: none;
+  }
+  
+  
+  .caja{
+        display: flex;
+  }

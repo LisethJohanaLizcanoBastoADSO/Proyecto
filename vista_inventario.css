@@ -1,0 +1,18 @@
+
+
+
+body{
+  background-color: #D9D9D9;
+}
+
+
+.contenido{
+ display: flex;
+ background-color: #BCD3FF;
+ list-style: none;
+}
+
+.contenedor{
+  background-color: #ffff;
+}
+

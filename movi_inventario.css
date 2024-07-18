@@ -10,6 +10,10 @@ body {
   overflow: hidden; /* Evita el desplazamiento vertical */
 }
 
+.movimientos{
+    min-height: 100vh;
+}
+
 .contenedor{
   padding: 50px;
   padding-left: 40px;

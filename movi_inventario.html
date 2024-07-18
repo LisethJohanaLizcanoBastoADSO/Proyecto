@@ -1,19 +1,27 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="vista_inventario.css">
-    <title>Vista de inventario</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="movi_inventario.css">
+  <title>Movimiento inventario - Vista jefe</title>
 </head>
+
 <body>
-    <section class="contenedor_primario">
+    <section class="movimientos">
+        <div class="menu">
+            
+        </div>
         <div class="contenedor">
+            <h1>Movimientos de inventario</h1>
             <label for="nombre_producto">Buscar:</label>
             <input class="controls" type="text" id="buscar" name="buscar" placeholder="">
-            <label for="nombre_producto">categoria</label>
+            <label for="nombre_producto">Filtrar:</label>
             <input class="controls" type="text" id="categoria" name="categoria" placeholder="">
             <ul class="contenido">
+                <li>Cambio</li>
                 <li>Código</li>
                 <li>Nombre del producto</li>
                 <li>Nombre del proveedor</li>
@@ -21,6 +29,6 @@
                 <li>Fecha de expiración</li>
             </ul>
         </div>
-    </section>
+      </section>
 </body>
 </html>

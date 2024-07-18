@@ -14,7 +14,6 @@
 
 
 .controls {
-    width: 100%;
     background-color: #ffffff;
     padding: 10px;
     border-radius: 4px;
@@ -23,7 +22,7 @@
     font-family: "calibri";
     font-size: 18px;
     color: rgb(0, 0, 0);
-  }
+}
 
 .subir_imagen{
     padding: 10%;

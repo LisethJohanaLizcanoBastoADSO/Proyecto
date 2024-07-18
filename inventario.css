@@ -23,18 +23,57 @@
   
   .buscar img {
     max-width: 100%; /* Asegura que la imagen no se desborde */
-    height: auto; /* Permite que la imagen mantenga su proporción */
+    height: 200px; /* Permite que la imagen mantenga su proporción */
   }
   
 
 .controls {
-    width: 100%;
-    background-color: #ffffff;
-    padding: 10px;
-    border-radius: 4px;
-    margin-bottom: 16px;
-    border: 1px solid #1f53c5;
-    font-family: "calibri";
-    font-size: 18px;
-    color: rgb(0, 0, 0);
-  }
+  width: 100%;
+  background-color: #ffffff;
+  padding: 10px;
+  border-radius: 4px;
+  margin-bottom: 16px;
+  border: 1px solid #ffffff;
+  font-family: "calibri";
+  font-size: 18px;
+  color: rgb(0, 0, 0);
+}
+
+.buscar{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 40px;
+}
+
+.contenedor_botones{
+  display: flex;
+  justify-content: center;
+}
+
+.caja_boton{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.btn_uno{
+  background-color: #5771AA;
+  color: #ffffff; /* añadido para asegurar visibilidad del texto */
+  border: none; /* asegura que no haya bordes en el botón */
+  padding: 10px 40px; /* añadido para dar espacio al contenido del botón */
+  border-radius: 20px; /* añadido para dar bordes redondeados al botón */
+  margin-top: 10px; /* ajuste del margen superior */
+  text-decoration: none;
+}
+
+.btn_dos{
+  background-color: #ffffff;
+  color: black; /* añadido para asegurar visibilidad del texto */
+  border: none; /* asegura que no haya bordes en el botón */
+  padding: 10px 40px; /* añadido para dar espacio al contenido del botón */
+  border-radius: 20px; /* añadido para dar bordes redondeados al botón */
+  margin-top: 10px; /* ajuste del margen superior */
+  text-decoration: none;
+}
+

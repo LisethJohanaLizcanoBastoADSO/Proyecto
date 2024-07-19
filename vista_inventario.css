@@ -12,16 +12,53 @@ body{
 
 
 .contenedor_primario{
+  display: flex;
   min-height: 100vh;
+  gap: 30px;
 }
 
+
+.conten{
+  display: flex;
+  align-items: center;
+  gap: 30px;
+}
+
+
+.menu{
+  padding: 25px;
+  background-color: #0D3878;
+}
 .contenido{
  display: flex;
  background-color: #BCD3FF;
  list-style: none;
+ padding: 30px;
+ margin-top: 90px;
+ width: auto;
+ height: auto;
 }
 
 .contenedor{
   background-color: #ffff;
+  padding: 100px;
+  border-radius: 8px;
+}
+
+.controls {
+  background-color: #ffffff;
+  padding: 9px;
+  border-radius: 4px;
+  border: 1px solid #1f53c5;
+  font-family: "calibri";
+  font-size: 18px;
+  color: rgb(0, 0, 0);
+}
+
+.otro_contenedor{
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  justify-content: center;
 }
 

@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css?family=Ubuntu');
+
 
 * {
     box-sizing: border-box;
@@ -8,6 +10,7 @@
 body {
   background-color:#ECECEC; /* Color de fondo del cuerpo */
   overflow: hidden; /* Evita el desplazamiento vertical */
+  font-family: 'Ubuntu';
 }
 
 .contenedor{
